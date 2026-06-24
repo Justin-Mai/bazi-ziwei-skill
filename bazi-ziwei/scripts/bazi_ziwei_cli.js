@@ -1,5 +1,21 @@
 #!/usr/bin/env node
 
+try {
+  require.resolve('lunar-javascript');
+  require.resolve('iztro');
+} catch (e) {
+  console.log("检测到缺少必要依赖，正在自动执行 npm install 安装，请稍候...");
+  try {
+    const cp = require('child_process');
+    cp.execSync('npm install --no-audit --no-fund', { cwd: __dirname, stdio: 'inherit' });
+  } catch (err) {
+    console.error(JSON.stringify({ 
+      error: `依赖自动安装失败。请手动进入目录执行安装命令：\ncd "${__dirname}" && npm install` 
+    }));
+    process.exit(1);
+  }
+}
+
 const { Lunar, Solar } = require('lunar-javascript');
 const iztro = require('iztro');
 
