@@ -1,4 +1,6 @@
-# 🌟 玄机阁 · 传统命理排盘分析工具 (bazi-ziwei)
+# 🌟 玄机阁 · 传统命理排盘分析skill (bazi-ziwei)
+
+网页版参考https://github.com/Justin-Mai/BaziZiwei
 
 本工具是一个基于 **Node.js** 的传统命理排盘系统，融合了**八字子平术**与**紫微斗数**的排盘计算和深度命局解盘分析。通过结合天文历法库与真太阳时校准算法，为命理分析、大运流年推算以及大事定盘校准提供精确的数据支撑。
 
@@ -215,4 +217,4 @@ node scripts/bazi_ziwei_cli.js --name "诸葛乾坤" --gender "乾造" --date "1
 
 ## 📄 开源许可
 
-本项目遵循 [MIT License](LICENSE) 许可协议。
+本项目遵循 Apache-2.0 license 许可协议。
