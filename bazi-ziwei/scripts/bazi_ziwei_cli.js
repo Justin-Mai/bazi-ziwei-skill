@@ -599,7 +599,7 @@ function main() {
       } : null,
       currentLiunian: {
         flowYear: currentLunarObj.getYearInGanZhi(),
-        palaceName: liunianPalaceName,
+        palaceName: liunianPalace ? liunianPalace.name : '',
         sihua: liunianSihuaStr
       },
       palaces: detailedPalaces
