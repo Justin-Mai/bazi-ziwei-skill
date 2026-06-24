@@ -215,6 +215,18 @@ node scripts/bazi_ziwei_cli.js --name "诸葛乾坤" --gender "乾造" --date "1
 
 ---
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=Justin-Mai%2Fbazi-ziwei-skill&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Justin-Mai/bazi-ziwei-skill&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Justin-Mai/bazi-ziwei-skill&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Justin-Mai/bazi-ziwei-skill&type=date&legend=top-left" />
+ </picture>
+</a>
+
+---
+
 ## 📄 开源许可
 
 本项目遵循 Apache-2.0 license 许可协议。
